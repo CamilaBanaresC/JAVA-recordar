@@ -1,0 +1,28 @@
+# JAVA-recordar
+
+Para mostrar la fecha actual, importe la clase y utilice su método:java.time.LocalDatenow()
+
+
+
+  LocalDate myObj = LocalDate.now(); // Create a date object
+    System.out.println(myObj); // Display the current date
+  }
+
+
+El resultado será: La fecha actual 
+
+_________________________________________________________________________________________________________________________
+
+ LocalTime myObj = LocalTime.now();
+    System.out.println(myObj); 
+
+El resultado será: La hora actual 
+
+
+__________________________________________________________________________________________________________________________
+
+ LocalDateTime myObj = LocalDateTime.now();
+    System.out.println(myObj);  
+
+El resultado será: La Fecha y la hora actual 
+
