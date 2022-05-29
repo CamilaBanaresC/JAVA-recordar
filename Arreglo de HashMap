@@ -1,0 +1,108 @@
+HashMap
+Metodo put 
+
+El metodo put se utiliza para guardar datos dentro de el HashMap
+
+public static void main(String[] args) {
+    HashMap<String, String> capitalCities = new HashMap<String, String>();
+    capitalCities.put("England", "London");
+    capitalCities.put("Germany", "Berlin");
+    capitalCities.put("Norway", "Oslo");
+    capitalCities.put("USA", "Washington DC");
+    System.out.println(capitalCities); 
+    
+    
+    RESULTADO {USA=Washington DC, Norway=Oslo, England=London, Germany=Berlin}
+  }
+_________________________________________________________________________-
+
+
+get()
+
+System.out.println(capitalCities.get("England"));   
+
+RESULTADO London 
+
+___________________________________________________________________________
+
+remove()
+
+capitalCities.remove("England");
+    System.out.println(capitalCities); 
+    
+  RESULTADO {USA=Washington DC, Norway=Oslo, Germany=Berlin}    
+  
+  ___________________________________________________________________________-
+  
+  clear()
+  
+capitalCities.clear();
+System.out.println(capitalCities); 
+    
+
+  capitalCities.clear();
+    System.out.println(capitalCities); 
+
+  RESULTADO {}
+  
+  _______________________________________________________________________________
+  
+  size()
+  
+   System.out.println(capitalCities.size()); 
+
+RESULTADO  4 
+
+Tenemos 4   paises , se cuenta desde el 1 --> 
+
+
+_________________________________________________________________________________
+
+
+FOR  keySet() 
+for (String i : capitalCities.keySet()) {
+      System.out.println(i);
+      
+Resultado   
+          Estados Unidos
+          Noruega
+          Inglaterra
+          Alemania      
+          
+   IMPRIME EL NOMBRE DE LAs VARIABLE        
+________________________________________________________________________________---
+
+FOR  values() 
+
+for (String i : capitalCities.values()) {
+  System.out.println(i);
+}
+
+Resultado 
+
+            Washington DC
+            Oslo
+            Londres
+            Berlín
+   
+   IMPRIME EL VALOR  DE LAs VARIABLE        
+
+_______________________________________________________________________________-
+FOR  values() keySet()
+
+
+for (String i : capitalCities.keySet()) {
+   System.out.println("key: " + i + " value: " + capitalCities.get(i));
+    }
+    
+Resultado    
+          clave: Valor de EE.UU.: Clave de Washington DC
+          : Valor de Noruega: Clave de Oslo
+          : Valor de Inglaterra: Clave de Londres
+          : Valor de Alemania: Berlín 
+    
+PUEDES IMPRIMIR LOS DOS VALORES  NOMBRE DE VARIABLE Y SU VALOR 
+
+
+__________________________________________________________________________
+
