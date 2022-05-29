@@ -61,7 +61,7 @@ RESULTADO:   [BMW, Ford, Mazda]
 Remueve el valor de  la posicion 0
 
 ______________________________________________________________________
-remove();
+clear()
 
   cars.clear();
     System.out.println(cars);
