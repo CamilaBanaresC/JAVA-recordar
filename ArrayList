@@ -1,0 +1,131 @@
+import java.util.ArrayList; // import the ArrayList class
+
+ArrayList<String> cars = new ArrayList<String>();
+
+
+
+
+____________________________________________________________________
+
+add()
+
+
+ public static void main(String[] args) { 
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    System.out.println(cars);
+  } 
+  
+  
+  RESULTADO: [Volvo, BMW, Ford, Mazda] 
+
+
+______________________________________________________________________
+
+ged()
+
+
+ System.out.println(cars.get(0));
+ 
+ 
+  RESULTADO: Volvo 
+
+Me devulve el valor en la posicion 0, puedo cambiar la posicion
+ ________________________________________________________________
+ 
+ set()
+ 
+  ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    cars.set(0, "Opel");
+    System.out.println(cars);
+    
+ RESULTADO: [Opel, BMW, Ford, Mazda]    
+ 
+Se agrega un valor en la posicion 0
+____________________________________________________________________
+
+remove();
+
+
+
+cars.remove(0); 
+RESULTADO:   [BMW, Ford, Mazda]  
+
+Remueve el valor de  la posicion 0
+
+______________________________________________________________________
+remove();
+
+  cars.clear();
+    System.out.println(cars);
+
+RESULTADO: []
+
+Devuelve un arreglo vacio 
+
+
+_____________________________________________________________________
+size();
+
+cars.size();
+System.out.println(cars.size());
+
+RESULTADO: 4
+
+Devuelve el tamaño del arreglo desde 1 -->
+
+
+_______________________________________________________________________
+
+.add();
+
+
+ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    System.out.println(cars.size());
+  } 
+ RESULTADO: 4
+ 
+ 
+ _____________________________________________________________________
+ 
+  sort()
+  
+  
+  Collections.sort(cars);
+
+    for (String i : cars) {
+      System.out.println(i);
+    }
+  
+  RESULTADO   
+            BMW
+          Ford
+          Mazda
+          Volvo
+
+Ordena un arraylist de cadena 
+
+Tambien puede ordenar de otro tipo de dato
+____________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+    
