@@ -1,0 +1,61 @@
+  static void NombredeMiMetodo() {
+    // code to be executed
+  }
+
+
+static significa que el método pertenece a la clase Main y no a un objeto de la clase Main
+void significa que este método no tiene un valor devuelto.
+__________________________________________________________________________________________
+
+LLAMAR AL METODO DENTRO DE LA CLASSE MAIN
+
+public static void main(String[] args) {
+    myMethod();
+  }
+
+
+________________________________________________________________________________________
+
+METODO QUE DEVUELVE UN VALOR INT 
+
+static int myMethod(int x) {
+    return 5 + x;
+  }
+  
+  
+  
+  LLAMADO EN EL MAIN 
+
+ System.out.println(myMethod(3)); 
+
+RESULTADO 8
+  ______________________________________________________________________________________
+
+METODO QUE DEVUELVE DOS VALORES INT 
+
+static int myMethod(int x, int y) {
+    return x + y;
+  }
+
+ public static void main(String[] args) {
+    System.out.println(myMethod(5, 3));
+  }
+}
+
+Resultado 8 
+
+
+______________________________________________________________________________________
+
+
+
+Con la sobrecarga de métodos, varios métodos pueden tener el mismo nombre con diferentes parámetros:
+
+
+ejemplo 
+
+int myMethod(int x)
+float myMethod(float x)
+double myMethod(double x, double y)
+
+
