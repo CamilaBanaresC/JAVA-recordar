@@ -1,0 +1,23 @@
+Scanner
+
+Scanner leer = new Scanner(System.in);
+
+                                                                        Metodos disponibles
+                                                                        __________________________
+
+nextLine() o next():   
+nexByte()
+nextShort()
+nextInt()
+nextLong()
+nextDouble()
+next() o next().charAt(0): 
+nextBoolean()
+
+Estos metodos son para ingresar datos dependiendo del tipo de dato a utilizar 
+___________________________________________________________________________________
+
+
+
+
+
