@@ -10,7 +10,7 @@ Para mostrar la fecha actual, importe la clase y utilice su método:java.time.Lo
 
 
 El resultado será: La fecha actual 
-
+2022-05-29
 _________________________________________________________________________________________________________________________
 
  LocalTime myObj = LocalTime.now();
@@ -18,11 +18,25 @@ ________________________________________________________________________________
 
 El resultado será: La hora actual 
 
-
+15:23:05.545385
 __________________________________________________________________________________________________________________________
 
  LocalDateTime myObj = LocalDateTime.now();
     System.out.println(myObj);  
 
 El resultado será: La Fecha y la hora actual 
+
+
+2022-05-29T15:23:05.546479 
+_____________________________________________________________________________________________________________________________
+
+   DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+
+ String formattedDate = myDateObj.format(myFormatObj);
+    System.out.println("After formatting: " + formattedDate);
+
+El resultado sera ordenado 
+
+After Formatting: 29-05-2022 15:23:05 
+
 
