@@ -1,0 +1,139 @@
+length()
+
+
+String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println("The length of the txt string is: " + txt.length());
+
+
+Resultado= The length of the txt string is: 26 
+
+CUENTA LOS CARACTERES
+
+
+_____________________________________________________________________________________
+
+toUpperCase()
+LowerCase()
+
+ String txt = "Hello World";
+    System.out.println(txt.toUpperCase());
+
+    String txt = "Hello World";
+    System.out.println(txt.toUpperCase());
+    System.out.println(txt.toLowerCase());
+  }
+
+Resultado 
+            HELLO WORLD
+            hello world
+            
+ CAMBIA EL RESULTADO A MAYUSCULA O MINUSCULA
+
+
+________________________________________________________________________________________-
+
+
+indexOf()
+
+String txt = "Please locate where 'locate' occurs!";
+System.out.println(txt.indexOf("locate"));
+
+Resultado 7
+
+El método devuelve el índice (la posición) de la primera aparición de un texto especificado en una cadena (incluido el espacio en blanco)
+
+__________________________________________________________________________________________-
+ concat()  
+ 
+ String firstName = "John ";
+String lastName = "Doe";
+System.out.println(firstName.
+concat
+(lastName));
+
+Resultado John Doe
+
+____________________________________________________________________________________________________________________-
+
+Fundición de ensanchamiento
+
+
+int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+
+    System.out.println(myInt);      // Outputs 9
+    System.out.println(myDouble);   // Outputs 9.0
+  }
+
+resultado : 
+
+ System.out.println(myInt);      // Outputs 9
+    System.out.println(myDouble);   // Outputs 9.0 
+
+______________________________________________________________________________________________________________________
+
+Fundición de estrechamiento
+
+
+ double myDouble = 9.78d;
+    int myInt = (int) myDouble; // Manual casting: double to int
+
+    System.out.println(myDouble);   // Outputs 9.78
+    System.out.println(myInt);      // Outputs 9
+  }
+
+
+____________________________________________________________________________________________________________________________
+Math.max(5, 10)
+
+  System.out.println(Math.max(5, 10));  
+
+Resultado 10
+
+
+Devuelve el valor mayor 
+
+Math.min(5, 10)
+Resultado 5
+
+Devuelve el valor menor
+
+________________________________________________________________________________________________________________________________
+
+Math.sqrt()
+
+
+ System.out.println(Math.sqrt(64));
+
+Resultado: 8.0 
+
+Devuelve la raiz cuadrada
+
+_________________________________________________________________________________________________________________________________
+
+Math.abs()
+
+ System.out.println(Math.abs(-4.7));
+
+Resultado: 4.7
+
+
+devuelve el valor absoluto (positivo)
+
+___________________________________________________________________________________________________________________
+
+Math.random()
+
+System.out.println(Math.random());  
+
+devuelve un número aleatorio entre 0,0 (inclusive) y 1,0 (exclusivo):
+
+
+Para obtener más control sobre el número aleatorio, por ejemplo, solo desea un número aleatorio entre 0 y 100, puede usar la siguiente fórmula:
+
+
+int randomNum = (int)(Math.random() * 101);  // 0 to 100
+
+
+__________________________________________________________________________________________________________________________
+
